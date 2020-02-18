@@ -4,7 +4,7 @@ var handleRequest = function(request, response) {
   console.log('Received request for URL: ' + request.url);
   response.writeHead(200);
   console.log('something');
-  response.end("Hello Internet. Once more, I'm here!!!!");
+  response.end("Hello Internet. Once again, I'm here!!!!");
 };
 var www = http.createServer(handleRequest);
 console.log('Listening on http://localhost:' + port);
