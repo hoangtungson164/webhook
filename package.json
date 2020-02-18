@@ -1,5 +1,5 @@
 {
-  "name": "webhook-exec",
+  "name": "webhook",
   "version": "1.0.0",
   "description": "## Stack",
   "main": "server.js",
@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webhookrelay/webhook-exec.git"
+    "url": "https://github.com/hoangtungson164/webhook.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/webhookrelay/webhook-exec/issues"
+    "url": "https://github.com/hoangtungson164/webhook/issues"
   },
-  "homepage": "https://github.com/webhookrelay/webhook-exec#readme"
+  "homepage": "https://github.com/hoangtungson164/webhook.git#readme"
 }

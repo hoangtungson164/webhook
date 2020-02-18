@@ -1,10 +1,10 @@
 var http = require('http');
-var port = 9000;
+var port = 8080;
 var handleRequest = function(request, response) {
   console.log('Received request for URL: ' + request.url);
   response.writeHead(200);
-  console.log('sdfasdlkfjsldkfjasdf');
-  response.end('Hello Infoplus! Version 002');
+  console.log('something');
+  response.end("Hello Internet. I'm here !!!!");
 };
 var www = http.createServer(handleRequest);
 console.log('Listening on http://localhost:' + port);
