@@ -1,9 +1,9 @@
 var http = require('http');
-var port = 8080
+var port = 8080;
 var handleRequest = function(request, response) {
   console.log('Received request for URL: ' + request.url);
   response.writeHead(200);
-  response.end('Hello Internet! Version 2!');
+  response.end('Hello Internet! Version 2.0.1!');
 };
 var www = http.createServer(handleRequest);
 console.log('Listening on http://localhost:' + port);
